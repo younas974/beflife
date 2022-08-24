@@ -1,0 +1,288 @@
+.custom-height .form-control {
+    height: 70px !important;
+    font-size: 50px !important;
+    line-height: 70px;
+    text-align: center;
+    font-weight: 700;
+}
+
+p.cron-p-style {
+    font-size: 30px;
+}
+
+.copyInput {
+    display: inline-block;
+    line-height: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.copied::after {
+    position: absolute;
+    top: 0;
+    right: 100%;
+    width: 100px;
+    display: block;
+    content: "COPIED";
+    font-size: 1em;
+    padding: 2px 5px;
+    color: #fff;
+    background-color: #22a;
+    border-radius: 3px;
+    opacity: 0;
+    will-change: opacity, transform;
+    animation: showcopied 1.5s ease;
+}
+
+
+
+nav ul.pagination {
+    justify-content: flex-end;
+}
+
+@keyframes showcopied {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 0.7;
+        transform: translateX(40%);
+    }
+    70% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.alert.block-none{
+    display: block !important;
+
+}
+
+.w-h-100-p{
+    width: 100%; height: 100%;
+}
+
+.card-img-top.depo
+{
+    width: 100%; min-height: 213px;
+}
+
+
+.max-w-h-100px
+{
+    max-width:100px;
+    max-height:100px;
+    margin:0 auto;
+}
+
+.max-w-h-100px
+{
+    max-width:100px;
+    max-height:100px;
+    margin:0 auto;
+}
+
+.font-15
+{
+    font-size: 15px;
+}
+.m-w-220px
+{
+    max-width: 220px;
+}
+.package-features-list span.icon i {
+    font-size: 20px;
+}
+.package-features-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.package-features-list li {
+    font-size: inherit !important;
+    position: relative;
+}
+
+
+.package-features-list span.icon i  {
+    color: #1e90ff;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+   
+}
+
+
+@media only screen and (min-device-width: 767px) and (max-device-width: 1440px) {
+    .package-features-list li i {
+        font-size: 7px;
+        width: 13px;
+        height: 13px;
+    }
+    .package-features-list span.icon i {
+        top: 3px;
+        right: -10px;
+        font-size: 15px;
+    }
+    .package-features-list li, span
+    {
+        font-size: 13px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 359px) {
+    .package-features-list li i {
+        font-size: 7px;
+        width: 13px;
+        height: 13px;
+    }
+    .package-features-list span.icon i {
+        top: 3px;
+        right: -10px;
+        font-size: 15px;
+    }
+    .package-features-list li, span
+    {
+        font-size: 13px;
+    }
+
+    .adFram{
+
+        margin-top: 5rem !important;
+    }
+    
+    
+}
+
+.cust_bg_19{
+    background: #d51c1c !important;
+}
+
+.icon_w{
+    max-width: 29px;
+}
+
+
+.rotate {
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
+
+  /* Member ship card */
+  .round {
+    position: relative;
+    float: right;
+  }
+  
+  .round label {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 28px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 28px;
+  }
+  
+  .round label:after {
+    border: 2px solid #fff;
+    border-top: none;
+    border-right: none;
+    content: "";
+    height: 6px;
+    left: 7px;
+    opacity: 0;
+    position: absolute;
+    top: 8px;
+    transform: rotate(-45deg);
+    width: 12px;
+  }
+  
+  .round input[type="checkbox"] {
+    visibility: hidden;
+  }
+  
+  .round input[type="checkbox"]:checked + label {
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+  }
+  
+  .round input[type="checkbox"]:checked + label:after {
+    opacity: 1;
+  }
+
+  .mbmcrd{
+    color: white;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-right: 20px;
+  }
+
+  .nrach{
+    text-align: center;
+    color: white;
+    margin-right: 90px;
+  }
+
+  .mmberShipCard{
+    float: left;
+    color: white;
+    margin-right: 171px;
+    position: absolute;
+  }
+
+  .bg-membership{
+    background: #237e70 !important;
+    min-height: 160px !important;
+  }
+
+  .dashboard-reward-rank {
+    background-color: #4f63c7 !important;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    min-height: 110px;
+    justify-content: flex-end;
+    overflow: hidden;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    position: relative;
+    align-items: center;
+    padding: 4px 4px;
+    
+  }
+
+  #scroll-container{
+    border-radius: 19px;
+  }
